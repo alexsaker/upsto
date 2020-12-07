@@ -1,0 +1,1350 @@
+
+[
+    {
+        "id": 0,
+        "name": "None.Defined='No'",
+        "server": "https://developer.uspto.gov/ds-api",
+        "version": "1.0.1",
+        "api": "USPTO Data Set API",
+        "path": "/",
+        "operation": "GET"
+    },
+    {
+        "id": 0,
+        "name": "dataset.Defined='Yes'",
+        "server": "https://developer.uspto.gov/ds-api",
+        "version": "1.0.1",
+        "api": "USPTO Data Set API",
+        "path": "/{dataset}/{version}/fields",
+        "operation": "GET",
+        "parameters": [
+            {
+                "name": "dataset",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": "rl@CIV@)I-O[8DmvK$ggt&f2nV9V ;f cg/%nYK(cFW);XDsfU;a~(fx,aBw]D%F]$m^'9gduYQ4>nK'-f)Y7c8K@/1$'Z=^7hCi,N]!lOM4t?#\\o/R\"uH@|2atb?=_!^bFm ~x H%41H'B.CiV%<JZN_s_wU#^}R]$\\,%nTtzB/2i<%R]qNM|AO"
+                },
+                "valid": true
+            },
+            {
+                "name": "version",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": "zl|D: gN!.chMMOP)A@#dejP!ZBc[9!o>Bzh!@;xcdS'(+!2]LXsON3x:;iEKpKi1[v?`BTD=qk2nE.:H_S$NSbQj%k|4UCBevr(mr()=8k4yLBLB@n1([iQu|Wy)c'eVB/p.t[8zE]r&>MBC|k w\"Bf+{%!C)C}q0HyHuWY(tS;>jVvhaFsqw:9^b?IE5wc0Z:V]<)ACmlJ;`=WTprlfvhgv~a"
+                },
+                "valid": true
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "name": "dataset.Value.Length='0'",
+        "server": "https://developer.uspto.gov/ds-api",
+        "version": "1.0.1",
+        "api": "USPTO Data Set API",
+        "path": "/{dataset}/{version}/fields",
+        "operation": "GET",
+        "parameters": [
+            {
+                "name": "dataset",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": ""
+                },
+                "valid": true
+            },
+            {
+                "name": "version",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": ""
+                },
+                "valid": true
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "dataset.Defined='No'",
+        "server": "https://developer.uspto.gov/ds-api",
+        "version": "1.0.1",
+        "api": "USPTO Data Set API",
+        "path": "/{dataset}/{version}/fields",
+        "operation": "GET",
+        "parameters": [
+            {
+                "name": "dataset",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": null,
+                "valid": false
+            },
+            {
+                "name": "version",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": "wHmRcT`P&d+bZ,@_&qzS41/mys$m2<d>5NmekkXYQX c\\~\\g}>>C(:49}FmNodb)s/c\"v{W9Zl0R&"
+                },
+                "valid": true
+            }
+        ],
+        "invalidInput": "dataset.Defined=No"
+    },
+    {
+        "id": 3,
+        "name": "dataset.Type=null",
+        "server": "https://developer.uspto.gov/ds-api",
+        "version": "1.0.1",
+        "api": "USPTO Data Set API",
+        "path": "/{dataset}/{version}/fields",
+        "operation": "GET",
+        "parameters": [
+            {
+                "name": "dataset",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "null",
+                    "value": null
+                },
+                "valid": false
+            },
+            {
+                "name": "version",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": "!@Z(zhQ\\?UW1\" +r-2>CD/y\"i%5<O@h=]\\V4A|Of#;x!E\\\\VWu'\"/{uP`,ay79,TqV-hl.(71:M0<isD_7bVPs3J>v\\I4:!x\"I,UTBIHT1ex>>e[J35K91qq1O?3?yW$rHL9*L6NYyqS>{<Tniiz;g`oc)OR72dh=Ba|zu:ji+wJ~y. FX5-K@:S<rr_J Lo[sh&v%{h,b4'!l:$?7"
+                },
+                "valid": true
+            }
+        ],
+        "invalidInput": "dataset.Type=null"
+    },
+    {
+        "id": 4,
+        "name": "dataset.Type='Not string'",
+        "server": "https://developer.uspto.gov/ds-api",
+        "version": "1.0.1",
+        "api": "USPTO Data Set API",
+        "path": "/{dataset}/{version}/fields",
+        "operation": "GET",
+        "parameters": [
+            {
+                "name": "dataset",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "boolean",
+                    "value": true
+                },
+                "valid": false
+            },
+            {
+                "name": "version",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": ")F R4y3#^upCM]5(;j45,uAbiNE0RxG>oIYy^I|bJb qre}8[:Im*QtnL=sV44^> 2#:iVS\\.ZHH)4K:$4C8k/:f%\\~sGtbR-q%l3@|@.+SpsE){YHVbC44WH,+p}yrG=LSl-{:C6la$%=RodEHWjH d<cms]`+UL7s{+MR)]&!+`Cz[tbyvXI`<\\G}-Gl&GS)?-7z0H$z#pso0yO'&oqo*CZE2U*'Lkc(r6:?>dqX*"
+                },
+                "valid": true
+            }
+        ],
+        "invalidInput": "dataset.Type=Not string"
+    },
+    {
+        "id": 5,
+        "name": "version.Defined='No'",
+        "server": "https://developer.uspto.gov/ds-api",
+        "version": "1.0.1",
+        "api": "USPTO Data Set API",
+        "path": "/{dataset}/{version}/fields",
+        "operation": "GET",
+        "parameters": [
+            {
+                "name": "version",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": null,
+                "valid": false
+            },
+            {
+                "name": "dataset",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": "k5ze{Vdm_<]1t?^[/Ecv<#Kn$Y-e.#Qc<Hn^k*D%{pmt#t`yg_RIu.e_XOAWLFC( pRY 8A7VgpZ`@aQzA(|\"\\vR)gn,(d>F|:Q-"
+                },
+                "valid": true
+            }
+        ],
+        "invalidInput": "version.Defined=No"
+    },
+    {
+        "id": 6,
+        "name": "version.Type=null",
+        "server": "https://developer.uspto.gov/ds-api",
+        "version": "1.0.1",
+        "api": "USPTO Data Set API",
+        "path": "/{dataset}/{version}/fields",
+        "operation": "GET",
+        "parameters": [
+            {
+                "name": "version",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "null",
+                    "value": null
+                },
+                "valid": false
+            },
+            {
+                "name": "dataset",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": "Pa\"l<lfvB^rFH$L+RA }m'vitv=Yo?gI^fK1wfee2/vr+p0/M3e$#+[EAq_BX69bT=6f]h(S`fX9;EK;V`>)@-Z<{}J\\1,$<1H*[eQqIg+Eu:l/G9W%r\\E,^ThX=.GBz4!_lY{.}\"[FqK7wYL@'&4'.4^,DcATSQDWoVreO_K8E`S,tS<3AT+Gx:q?-)(x3OoA>'i=\""
+                },
+                "valid": true
+            }
+        ],
+        "invalidInput": "version.Type=null"
+    },
+    {
+        "id": 7,
+        "name": "version.Type='Not string'",
+        "server": "https://developer.uspto.gov/ds-api",
+        "version": "1.0.1",
+        "api": "USPTO Data Set API",
+        "path": "/{dataset}/{version}/fields",
+        "operation": "GET",
+        "parameters": [
+            {
+                "name": "version",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "integer",
+                    "value": -539,
+                    "format": "int32"
+                },
+                "valid": false
+            },
+            {
+                "name": "dataset",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": "[69ZUjT-0TvYm/H?ZX1F=l/Ci8v'CXZu@nuqo VpM\"[(*hd,n\\stIZ0WD9y:];bmzQ/&:'W4Y}[_}FB`Md"
+                },
+                "valid": true
+            }
+        ],
+        "invalidInput": "version.Type=Not string"
+    },
+    {
+        "id": 0,
+        "name": "version.Defined='Yes'",
+        "server": "https://developer.uspto.gov/ds-api",
+        "version": "1.0.1",
+        "api": "USPTO Data Set API",
+        "path": "/{dataset}/{version}/records",
+        "operation": "POST",
+        "parameters": [
+            {
+                "name": "version",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": "ya<nIU(kN|CH5Fm#/h9wEw@txW,`ts'}1pr@<F^\"K2+[ynCy7u&Jru0=G$1otH0RmF#{'<5H2{-kX>$eZ>$e:'w;7sazXPGxtO U'}%z545Cy/21VRwlBFv-W+#5W\"_}cc\"yx,aZR,8h@G1-yO}CGGUC/jtp'NgZ*>EFY2;*Rw/z(N'8:z|Y.*9:$E+/>N(.elC:cdL6JW|to*ZQgOGOy6v-"
+                },
+                "valid": true
+            },
+            {
+                "name": "dataset",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": "O]/9n-{%rK8b#Uj&VhH#rN$[EBw?JaqeDha?,zOd9fVN?+Wm'v/?JQxkn[}|1 1(r[sS~VZJKP{|8a~u<&e,i_ENE)*6fW1X|1#!ZP@+CrGoe<6?TMuqvS]2a#e]eGW<'5*H\"5*g0gcD:jIa.#?XOsHt44:?D+;'kp=0kU(Toktam}\\Q3d-OWS.7N#*=0&Pj81L@< .Mmi@P\\u \"0jd=E@S;+B[Va4HW&H\\/F2%JVdu"
+                },
+                "valid": true
+            }
+        ],
+        "body": {
+            "mediaType": "application/x-www-form-urlencoded",
+            "data": {
+                "type": "object",
+                "value": {
+                    "criteria": {
+                        "type": "string",
+                        "value": " JY#C3|hTe1%dZ88F&H7q+6v}72h3hV?.F 71yH7gt8T1K]PptJMIkGQN&A'z[7XIuM#/P[:Gs@t!^wCZwE\\Qh?.R_4y^_|1/&4.)@x%jDN\\2_u?&hUz(H-JYW(T"
+                    },
+                    "start": {
+                        "type": "integer",
+                        "value": -163961623,
+                        "format": "int32"
+                    },
+                    "rows": {
+                        "type": "integer",
+                        "value": -287183069,
+                        "format": "int32"
+                    },
+                    "bzgdjcaoffalmt": {
+                        "type": "object",
+                        "value": {
+                            "pchooibjfkyps": {
+                                "type": "number",
+                                "value": -415.5
+                            },
+                            "zxhoeiqnkqrkgntv": {
+                                "type": "string",
+                                "value": "Dvq2"
+                            }
+                        }
+                    },
+                    "flb": {
+                        "type": "integer",
+                        "value": 500,
+                        "format": "int32"
+                    }
+                }
+            },
+            "valid": true
+        }
+    },
+    {
+        "id": 1,
+        "name": "version.Value.Length='0'",
+        "server": "https://developer.uspto.gov/ds-api",
+        "version": "1.0.1",
+        "api": "USPTO Data Set API",
+        "path": "/{dataset}/{version}/records",
+        "operation": "POST",
+        "parameters": [
+            {
+                "name": "version",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": ""
+                },
+                "valid": true
+            },
+            {
+                "name": "dataset",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": ""
+                },
+                "valid": true
+            }
+        ],
+        "body": {
+            "data": null,
+            "valid": true
+        }
+    },
+    {
+        "id": 2,
+        "name": "Body.application-x-www-form-urlencoded.Value.Properties.criteria.Value.Length='0'",
+        "server": "https://developer.uspto.gov/ds-api",
+        "version": "1.0.1",
+        "api": "USPTO Data Set API",
+        "path": "/{dataset}/{version}/records",
+        "operation": "POST",
+        "parameters": [
+            {
+                "name": "version",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": "(mSu]c'mMRD1%\"'x:GP!h5Npih"
+                },
+                "valid": true
+            },
+            {
+                "name": "dataset",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": "mas/,,-hL5:A.8r3V_pGS]nMK`Cn`#\\q3CFU-J'6V*X_n~kr8e>jy_0{af:Z]n<3%u;.l4?[EC^bLs2+"
+                },
+                "valid": true
+            }
+        ],
+        "body": {
+            "mediaType": "application/x-www-form-urlencoded",
+            "data": {
+                "type": "object",
+                "value": {
+                    "criteria": {
+                        "type": "string",
+                        "value": ""
+                    }
+                }
+            },
+            "valid": true
+        }
+    },
+    {
+        "id": 3,
+        "name": "Body.application-x-www-form-urlencoded.Value.Properties.start.Value.Is='0'",
+        "server": "https://developer.uspto.gov/ds-api",
+        "version": "1.0.1",
+        "api": "USPTO Data Set API",
+        "path": "/{dataset}/{version}/records",
+        "operation": "POST",
+        "parameters": [
+            {
+                "name": "version",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": ""
+                },
+                "valid": true
+            },
+            {
+                "name": "dataset",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": ""
+                },
+                "valid": true
+            }
+        ],
+        "body": {
+            "mediaType": "application/x-www-form-urlencoded",
+            "data": {
+                "type": "object",
+                "value": {
+                    "criteria": {
+                        "type": "string",
+                        "value": "X.0%|@m@Lrr_v#h(}0@l@je}Qmqp]|~czoU [Wgo:y)jD3Y)cx8X%_ubcRhu[AE%sE*xu-9alC!r,$)V}l,$#a?Zyr;!\"=AseIn^xv4o)[71dS\\oMX{-Du~H%mLVqX,idRU_BG)xn}?iOC*Bq\\/$xoQ9BRGLD^%N2cgonjOkk:D|{v"
+                    },
+                    "start": {
+                        "type": "integer",
+                        "value": 0,
+                        "format": "int32"
+                    },
+                    "rows": {
+                        "type": "integer",
+                        "value": 0,
+                        "format": "int32"
+                    },
+                    "mxiypmbtck": {
+                        "type": "number",
+                        "value": 496.7
+                    }
+                }
+            },
+            "valid": true
+        }
+    },
+    {
+        "id": 4,
+        "name": "Body.application-x-www-form-urlencoded.Value.Properties.start.Value.Is='> 0'",
+        "server": "https://developer.uspto.gov/ds-api",
+        "version": "1.0.1",
+        "api": "USPTO Data Set API",
+        "path": "/{dataset}/{version}/records",
+        "operation": "POST",
+        "parameters": [
+            {
+                "name": "version",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": "s7X0#_1{nY8Q]c=#;f99=)8~h=1`<QxQ8N6=}+q*}/QQIcS7#rg#D>iVB/^d|KY'HFGcJd |/LPu[q9_k7*6bq@^D#O .kf 0hp^*eJ_p\\Im{1J~})gUwK\"KAX@j\"${%%o-cgKREjWS(4-njR'f{&-k{q=17ZxE9kECRU>)E4\"{60D{4r`JtS!M!G*(go8b tw>hEAy1| K_+qL^ <De#:"
+                },
+                "valid": true
+            },
+            {
+                "name": "dataset",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": "J1LUMm'Q/Ro5MaEST }^#_aFB/9Zt&Y,8YT\\F9vQ&e{IF_jH5d8lEgut#}j]?\"a4>m_!lz7{\"VuVp2WM<^6(yv8@i;`jG,Bl@{)qcv4^hsqb:\\>9&~Y_:(uLM{~gNrd#W@{;0)<`eq5eaZW(^Ob);Ay|!eS&Y-ptKRK:AmW5jEZ~emXtA:pRY=(+"
+                },
+                "valid": true
+            }
+        ],
+        "body": {
+            "mediaType": "application/x-www-form-urlencoded",
+            "data": {
+                "type": "object",
+                "value": {
+                    "criteria": {
+                        "type": "string",
+                        "value": ""
+                    },
+                    "start": {
+                        "type": "integer",
+                        "value": 443480814,
+                        "format": "int32"
+                    }
+                }
+            },
+            "valid": true
+        }
+    },
+    {
+        "id": 5,
+        "name": "Body.application-x-www-form-urlencoded.Value.Properties.rows.Value.Is='> 0'",
+        "server": "https://developer.uspto.gov/ds-api",
+        "version": "1.0.1",
+        "api": "USPTO Data Set API",
+        "path": "/{dataset}/{version}/records",
+        "operation": "POST",
+        "parameters": [
+            {
+                "name": "version",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": ""
+                },
+                "valid": true
+            },
+            {
+                "name": "dataset",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": ""
+                },
+                "valid": true
+            }
+        ],
+        "body": {
+            "mediaType": "application/x-www-form-urlencoded",
+            "data": {
+                "type": "object",
+                "value": {
+                    "criteria": {
+                        "type": "string",
+                        "value": ";K!5"
+                    },
+                    "rows": {
+                        "type": "integer",
+                        "value": 536401596,
+                        "format": "int32"
+                    },
+                    "qzaehserl": {
+                        "type": "boolean",
+                        "value": true
+                    }
+                }
+            },
+            "valid": true
+        }
+    },
+    {
+        "id": 6,
+        "name": "version.Defined='No'",
+        "server": "https://developer.uspto.gov/ds-api",
+        "version": "1.0.1",
+        "api": "USPTO Data Set API",
+        "path": "/{dataset}/{version}/records",
+        "operation": "POST",
+        "parameters": [
+            {
+                "name": "version",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": null,
+                "valid": false
+            },
+            {
+                "name": "dataset",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": ">F\"BOvF2dK!rz2S9r+l`a7MZ},GB5GY4?gkH#??qV&r2w?1a`tqk|x1W=C$O~Ue[Yfp0l6$Dn?QXQ$T$k:MfB\\vv5[B#&,Za'5**<9/Fd\\&n`a?!tRjR.}%Wi9CF}x|I.4R|FO:}I<a-;:@bL9nnOzMBGjSP\"=Y}C3uV>kVD4\\.I#$/k+R;uMcL,'}&7Xjy\"+,0I]`r}e#]$Z8D\\|6Q^hO}x&ZIkCv*ch\\NW]kv2Xb F"
+                },
+                "valid": true
+            }
+        ],
+        "body": {
+            "data": null,
+            "valid": true
+        },
+        "invalidInput": "version.Defined=No"
+    },
+    {
+        "id": 7,
+        "name": "version.Type=null",
+        "server": "https://developer.uspto.gov/ds-api",
+        "version": "1.0.1",
+        "api": "USPTO Data Set API",
+        "path": "/{dataset}/{version}/records",
+        "operation": "POST",
+        "parameters": [
+            {
+                "name": "version",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "null",
+                    "value": null
+                },
+                "valid": false
+            },
+            {
+                "name": "dataset",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": "v<0!?w&WP}uR7r8=<V1id6c[|ZEvKD>|4qq=bS>.?4z5CQd>.\\)=ubuM :+boJ6NPr`=[1AQ6u?]4.5uU4[qnyKAgo(tW|~OUyo( \\U]m:"
+                },
+                "valid": true
+            }
+        ],
+        "body": {
+            "data": null,
+            "valid": true
+        },
+        "invalidInput": "version.Type=null"
+    },
+    {
+        "id": 8,
+        "name": "version.Type='Not string'",
+        "server": "https://developer.uspto.gov/ds-api",
+        "version": "1.0.1",
+        "api": "USPTO Data Set API",
+        "path": "/{dataset}/{version}/records",
+        "operation": "POST",
+        "parameters": [
+            {
+                "name": "version",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "number",
+                    "value": -801.0
+                },
+                "valid": false
+            },
+            {
+                "name": "dataset",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": "]:PS2~&JQT:&UrDdZQE@cP4,P1kW! Q;g`nKt`aMZM'iWUq~UZjYJ@ZPkA2(00}"
+                },
+                "valid": true
+            }
+        ],
+        "body": {
+            "data": null,
+            "valid": true
+        },
+        "invalidInput": "version.Type=Not string"
+    },
+    {
+        "id": 9,
+        "name": "dataset.Defined='No'",
+        "server": "https://developer.uspto.gov/ds-api",
+        "version": "1.0.1",
+        "api": "USPTO Data Set API",
+        "path": "/{dataset}/{version}/records",
+        "operation": "POST",
+        "parameters": [
+            {
+                "name": "dataset",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": null,
+                "valid": false
+            },
+            {
+                "name": "version",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": "+|IzjHs^~pM-7>yF/0j7j>k//H(_/!Y`0DnzV{88!x0aIyE<3F9'OJ;f`WE76~q83yg'9nM/6'To}wwCzCW\\:c>u~}EzO*!W=\\6[FM5=T:`fUj#tHOm9zGiKmW-vM50PQ8jY#>pL1whf3(u<fOK;9s4mM#c(%&XOhBXt<:!#FhDO)<n:|&nn(Y>hh-CD\\12P%SIZk1.wCt*)Fx^'!nG^~v3K\\]S~g`xXB{BRhs6>]%~A3Mf`#-Dq@2-x5"
+                },
+                "valid": true
+            }
+        ],
+        "body": {
+            "data": null,
+            "valid": true
+        },
+        "invalidInput": "dataset.Defined=No"
+    },
+    {
+        "id": 10,
+        "name": "dataset.Type=null",
+        "server": "https://developer.uspto.gov/ds-api",
+        "version": "1.0.1",
+        "api": "USPTO Data Set API",
+        "path": "/{dataset}/{version}/records",
+        "operation": "POST",
+        "parameters": [
+            {
+                "name": "dataset",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "null",
+                    "value": null
+                },
+                "valid": false
+            },
+            {
+                "name": "version",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": "\\3rr/=n-nOTxdvq$I{;g rf% Iq6.V0zh!\\U2Xl*%8G+7Uw$Y]J#_-I,w\\\\P7@XE7K?OxM%gZ6>jZeDQ~HBeOpoOc6SV8nk}#nqC8W`E-6%\\)C[tcS%FM{Tctn$&H)U$ @bhksFvEmWG>9o\\8!lhTwPvZ[Y+OF~9#!W\"Y][^R$O>K1$=1Mp!fIxceVN?eU6G|j5nlmZ6P2c#s4mxzLWla%2=2$v$@@UAJaGWD c%t"
+                },
+                "valid": true
+            }
+        ],
+        "body": {
+            "data": null,
+            "valid": true
+        },
+        "invalidInput": "dataset.Type=null"
+    },
+    {
+        "id": 11,
+        "name": "dataset.Type='Not string'",
+        "server": "https://developer.uspto.gov/ds-api",
+        "version": "1.0.1",
+        "api": "USPTO Data Set API",
+        "path": "/{dataset}/{version}/records",
+        "operation": "POST",
+        "parameters": [
+            {
+                "name": "dataset",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "object",
+                    "value": {
+                        "mshkcnhwamlneejb": {
+                            "type": "array",
+                            "value": [
+                                {
+                                    "type": "string",
+                                    "value": "T[f"
+                                }
+                            ]
+                        },
+                        "ubdhnqfcfy": {
+                            "type": "integer",
+                            "value": -312,
+                            "format": "int32"
+                        }
+                    }
+                },
+                "valid": false
+            },
+            {
+                "name": "version",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": "?eb0:1C5QZltSK'n\\J\\k^%@ f+}=z\"viD bU`d7jhZ*Sg^Dg&6k5~;0+j85.>4_x^(x=.= }RO.iJCt5/IBPn7zm9j;%hM\"tG?^wV&"
+                },
+                "valid": true
+            }
+        ],
+        "body": {
+            "data": null,
+            "valid": true
+        },
+        "invalidInput": "dataset.Type=Not string"
+    },
+    {
+        "id": 12,
+        "name": "Body.Media-Type='Other'",
+        "server": "https://developer.uspto.gov/ds-api",
+        "version": "1.0.1",
+        "api": "USPTO Data Set API",
+        "path": "/{dataset}/{version}/records",
+        "operation": "POST",
+        "parameters": [
+            {
+                "name": "version",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": "fTiB`<>)Qu/8`1Qt F;g8lx1_#mIa!ruUu.s5>q,j v3uTHFnoVytMqT\"[U h0?*a0b+e|hbphh*/ZdAIH!2'+NZkV_4\"@/YET8J!,4-YQ[p,Z?8o"
+                },
+                "valid": true
+            },
+            {
+                "name": "dataset",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": "mC-~pu`X=B,35x5{9Tw[#OXUy1F=Ci;EUY)|iA1A%~ZDM9Q+<&BB?{'-4?/A@bcFo!;oZ=0XmP8||NV_*tgDY9PuAP/8WIY%s!>tS[L9*08]m0*/3_)<W=Lsh$#|W5'tHE:)G3c]~^[Un6`~bt5U3w{U(jjxzM3Gn}sX$4'^EGm8Q"
+                },
+                "valid": true
+            }
+        ],
+        "body": {
+            "mediaType": "text/xml",
+            "data": {
+                "type": "number",
+                "value": -797.9
+            },
+            "valid": false
+        },
+        "invalidInput": "Body.Media-Type=Other"
+    },
+    {
+        "id": 13,
+        "name": "Body.application-x-www-form-urlencoded.Type=null",
+        "server": "https://developer.uspto.gov/ds-api",
+        "version": "1.0.1",
+        "api": "USPTO Data Set API",
+        "path": "/{dataset}/{version}/records",
+        "operation": "POST",
+        "parameters": [
+            {
+                "name": "version",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": "?,[rSlX\"Z+(cfx+/L80_Ax?71[pwn\\]Q%-aG@EP|kdjsuJj/8;y<D>$s#f|zQrL/cNG=bQ)M\"NM_0)Hz_~g>`2\"-|xXe+BXQd],s8aza5)]<jCJj[:km'I|_F7o/c_`TIKt)EwjU*QX{fhPS G'N> sD{'Xvxi$.MSgYdsbPe%}ssbEBSfl?i>d;iTt:<R|-RumT^vkJ26,H60d"
+                },
+                "valid": true
+            },
+            {
+                "name": "dataset",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": "?x jh!Zr)nNU[ME: )^1Hu)$;(K)Ty+}VtbbOCk)+>_z2!nr6FUi]g{S,Crw,5Fj|,=jE\"es%lA$?z4eARRpqSLgzF;xi20@6fKqR?=DnaOXKIdz}NUydZMFxVvF\".Kp<xAd\"5(MShl;k<5U9xxkVDstuDp_dyOor*=VTFjGfOFY#X;D#]mV)b*:CM"
+                },
+                "valid": true
+            }
+        ],
+        "body": {
+            "mediaType": "application/x-www-form-urlencoded",
+            "data": {
+                "type": "null",
+                "value": null
+            },
+            "valid": false
+        },
+        "invalidInput": "Body.application-x-www-form-urlencoded.Type=null"
+    },
+    {
+        "id": 14,
+        "name": "Body.application-x-www-form-urlencoded.Type='Not object'",
+        "server": "https://developer.uspto.gov/ds-api",
+        "version": "1.0.1",
+        "api": "USPTO Data Set API",
+        "path": "/{dataset}/{version}/records",
+        "operation": "POST",
+        "parameters": [
+            {
+                "name": "version",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": "yUJtR3Yh66=IHST>F6jUR.Hi3P/yl>*}e8Co)W`hs4;0LT ZtX)D+v5j8;+#P8Ji1Fza0$VXSdGV*Dg/Lu<={vfu cA+@)C#(-lM]TO35srFI;P]NZkYy[!PBHX\"\\A0:i\\"
+                },
+                "valid": true
+            },
+            {
+                "name": "dataset",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": "pf\\nHZ%XB'<0eD07PcUb=Iogpj-jgX}[:\"A=?Olfe;:]SAvJk(KB|N2tRA@k$L4x$#m51xF<E<u+@OTRsVL<05cpSU_%cs"
+                },
+                "valid": true
+            }
+        ],
+        "body": {
+            "mediaType": "application/x-www-form-urlencoded",
+            "data": {
+                "type": "integer",
+                "value": 350,
+                "format": "int32"
+            },
+            "valid": false
+        },
+        "invalidInput": "Body.application-x-www-form-urlencoded.Type=Not object"
+    },
+    {
+        "id": 15,
+        "name": "Body.application-x-www-form-urlencoded.Value.Properties.criteria.Defined='No'",
+        "server": "https://developer.uspto.gov/ds-api",
+        "version": "1.0.1",
+        "api": "USPTO Data Set API",
+        "path": "/{dataset}/{version}/records",
+        "operation": "POST",
+        "parameters": [
+            {
+                "name": "version",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": "gvhHg+Ib@(XRi}Y6akGXPNy8#)'[} QhSiGV0w@P<S5!u^xMU@fGX6j5pwzn,dXK,7:\"Sn@3!|bQR?\"VzNo=Rvf(+0+nTPJdx6^VDzn~x$AW<N]z{1%C/<-lbtiCSqKlQ{Tv7(Hv`;ADr\"iP|~FF"
+                },
+                "valid": true
+            },
+            {
+                "name": "dataset",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": "+'s?^u"
+                },
+                "valid": true
+            }
+        ],
+        "body": {
+            "mediaType": "application/x-www-form-urlencoded",
+            "data": {
+                "type": "object",
+                "value": {
+                    "start": {
+                        "type": "integer",
+                        "value": -757785314,
+                        "format": "int32"
+                    }
+                }
+            },
+            "valid": false
+        },
+        "invalidInput": "Body.application-x-www-form-urlencoded.Value.Properties.criteria.Defined=No"
+    },
+    {
+        "id": 16,
+        "name": "Body.application-x-www-form-urlencoded.Value.Properties.criteria.Type=null",
+        "server": "https://developer.uspto.gov/ds-api",
+        "version": "1.0.1",
+        "api": "USPTO Data Set API",
+        "path": "/{dataset}/{version}/records",
+        "operation": "POST",
+        "parameters": [
+            {
+                "name": "version",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": "QxOD992.olLzYl4\"c0\\1^R~;KIE*hwbUIE-h"
+                },
+                "valid": true
+            },
+            {
+                "name": "dataset",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": "\"5sVm["
+                },
+                "valid": true
+            }
+        ],
+        "body": {
+            "mediaType": "application/x-www-form-urlencoded",
+            "data": {
+                "type": "object",
+                "value": {
+                    "criteria": {
+                        "type": "null",
+                        "value": null
+                    },
+                    "start": {
+                        "type": "integer",
+                        "value": -582511066,
+                        "format": "int32"
+                    }
+                }
+            },
+            "valid": false
+        },
+        "invalidInput": "Body.application-x-www-form-urlencoded.Value.Properties.criteria.Type=null"
+    },
+    {
+        "id": 17,
+        "name": "Body.application-x-www-form-urlencoded.Value.Properties.criteria.Type='Not string'",
+        "server": "https://developer.uspto.gov/ds-api",
+        "version": "1.0.1",
+        "api": "USPTO Data Set API",
+        "path": "/{dataset}/{version}/records",
+        "operation": "POST",
+        "parameters": [
+            {
+                "name": "version",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": "|y\"]92QA:-PXsxF%JFhKe9sxnVNbNd<'nsMk:>.X|^N,S(p {puUTj+3~k\"bxLHRBmnJzG=q}$1MJ>vf~&f=d2lZ6;9fH%4@6DF[IkanM)>j_gc5K#5Ft}lgF,z%"
+                },
+                "valid": true
+            },
+            {
+                "name": "dataset",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": "RA*QhlYcZ:II,=*<vA8hLyX>F`/Kk]NIb~.IE!'79S27n7r%6(ugM`]U=d$Sn48(fgK#. {(GAo6aZ!p1S?<*knX&Nbz=-^\"IVt^pg9E;&vx7'.^\\_^?B)8k%K0C3:&#ry\\Zkoo29<Z1n%4o^C\\|Wkp1ri@{jDmrao{C`dJ["
+                },
+                "valid": true
+            }
+        ],
+        "body": {
+            "mediaType": "application/x-www-form-urlencoded",
+            "data": {
+                "type": "object",
+                "value": {
+                    "criteria": {
+                        "type": "array",
+                        "value": [
+                            {
+                                "type": "string",
+                                "value": "zm?"
+                            }
+                        ]
+                    },
+                    "start": {
+                        "type": "integer",
+                        "value": -798631240,
+                        "format": "int32"
+                    }
+                }
+            },
+            "valid": false
+        },
+        "invalidInput": "Body.application-x-www-form-urlencoded.Value.Properties.criteria.Type=Not string"
+    },
+    {
+        "id": 18,
+        "name": "Body.application-x-www-form-urlencoded.Value.Properties.start.Type=null",
+        "server": "https://developer.uspto.gov/ds-api",
+        "version": "1.0.1",
+        "api": "USPTO Data Set API",
+        "path": "/{dataset}/{version}/records",
+        "operation": "POST",
+        "parameters": [
+            {
+                "name": "version",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": ":BWtH~4f0AOaM>J6{/J-o<:NFxh.v.XM2J9lR.zsDAD"
+                },
+                "valid": true
+            },
+            {
+                "name": "dataset",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": "?klqcf+!]2~1Z40/]'+v1ox=67%xy:FrRjH=s77B1C4)vB(&cZ_K1F,KDW^~<)Y!Ulu#x!8p:T_0%Q{o!tgyWVt94^wXXvfZ^MN9&F$_diB(?wQ<.0XI}0lPuU4Z/6!$W%_$tk>Jc~z]Whtm]8#C%%}ZW2QRM1%;|P|&om_?S]jN:ek#ss7Wq]Kx*L~?)=R=q/f]wrNli5-Fnc{}YuD]JC"
+                },
+                "valid": true
+            }
+        ],
+        "body": {
+            "mediaType": "application/x-www-form-urlencoded",
+            "data": {
+                "type": "object",
+                "value": {
+                    "criteria": {
+                        "type": "string",
+                        "value": ""
+                    },
+                    "start": {
+                        "type": "null",
+                        "value": null
+                    }
+                }
+            },
+            "valid": false
+        },
+        "invalidInput": "Body.application-x-www-form-urlencoded.Value.Properties.start.Type=null"
+    },
+    {
+        "id": 19,
+        "name": "Body.application-x-www-form-urlencoded.Value.Properties.start.Type='Not integer'",
+        "server": "https://developer.uspto.gov/ds-api",
+        "version": "1.0.1",
+        "api": "USPTO Data Set API",
+        "path": "/{dataset}/{version}/records",
+        "operation": "POST",
+        "parameters": [
+            {
+                "name": "version",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": "`sry! 'c ^&'cINYVF"
+                },
+                "valid": true
+            },
+            {
+                "name": "dataset",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": "BfC9NJpCx^wY8zUG\\w$+3fa/&]ere<Df|Qw7eq%_)tMtRw3Vy<UECIgm_@~N]GN(qL89(6,Oq#:`^ kv\\o*IW9P28zDzEV<c3mj=#WmS'Y-:IbGS6`j7e^q.f{tQ!ASnj?CvAM >>=t{M%u0&+3'<8 "
+                },
+                "valid": true
+            }
+        ],
+        "body": {
+            "mediaType": "application/x-www-form-urlencoded",
+            "data": {
+                "type": "object",
+                "value": {
+                    "criteria": {
+                        "type": "string",
+                        "value": ""
+                    },
+                    "start": {
+                        "type": "object",
+                        "value": {
+                            "tupswuluddrjiega": {
+                                "type": "array",
+                                "value": [
+                                    {
+                                        "type": "string",
+                                        "value": "esLHj$@"
+                                    },
+                                    {
+                                        "type": "string",
+                                        "value": "0"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            "valid": false
+        },
+        "invalidInput": "Body.application-x-www-form-urlencoded.Value.Properties.start.Type=Not integer"
+    },
+    {
+        "id": 20,
+        "name": "Body.application-x-www-form-urlencoded.Value.Properties.rows.Type=null",
+        "server": "https://developer.uspto.gov/ds-api",
+        "version": "1.0.1",
+        "api": "USPTO Data Set API",
+        "path": "/{dataset}/{version}/records",
+        "operation": "POST",
+        "parameters": [
+            {
+                "name": "version",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": ")jh"
+                },
+                "valid": true
+            },
+            {
+                "name": "dataset",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": "=aLxz*8A<3`H/`Z B^\"[:|Qg0rkggH%xzU`pN#3\\9%ZHi5LWU[.'cY%6d&:l|bUDo)p=:U~*uJyG|0w@d`gQz2{&\"|Z}15b$oh5j^/D"
+                },
+                "valid": true
+            }
+        ],
+        "body": {
+            "mediaType": "application/x-www-form-urlencoded",
+            "data": {
+                "type": "object",
+                "value": {
+                    "criteria": {
+                        "type": "string",
+                        "value": ""
+                    },
+                    "start": {
+                        "type": "integer",
+                        "value": -881717685,
+                        "format": "int32"
+                    },
+                    "rows": {
+                        "type": "null",
+                        "value": null
+                    }
+                }
+            },
+            "valid": false
+        },
+        "invalidInput": "Body.application-x-www-form-urlencoded.Value.Properties.rows.Type=null"
+    },
+    {
+        "id": 21,
+        "name": "Body.application-x-www-form-urlencoded.Value.Properties.rows.Type='Not integer'",
+        "server": "https://developer.uspto.gov/ds-api",
+        "version": "1.0.1",
+        "api": "USPTO Data Set API",
+        "path": "/{dataset}/{version}/records",
+        "operation": "POST",
+        "parameters": [
+            {
+                "name": "version",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": "b/_2Y=|iPIumvO^iyy9#f\\^@^&=ikSra)t2+6{Fi|fE6D|UYWz[12--a!T[>tjctNY'\\bk<<]$f2ZgCFS7`B M r;!X\\5Kk)Yu"
+                },
+                "valid": true
+            },
+            {
+                "name": "dataset",
+                "in": "path",
+                "style": "simple",
+                "explode": false,
+                "data": {
+                    "type": "string",
+                    "value": "$qewXjjxpSpB{qrV<>4:y.h{ZiE>@ roZaX;w p@-62[Udoe.U5{n<+%kaYM_ki_`L']7,'e:3R78^a;duP+1z/@G%MhOg7H{4112.-;y}dfw#-W2g'])<QMRp)(FOP,O^cGV/BPUa*df"
+                },
+                "valid": true
+            }
+        ],
+        "body": {
+            "mediaType": "application/x-www-form-urlencoded",
+            "data": {
+                "type": "object",
+                "value": {
+                    "criteria": {
+                        "type": "string",
+                        "value": ""
+                    },
+                    "start": {
+                        "type": "integer",
+                        "value": -741659957,
+                        "format": "int32"
+                    },
+                    "rows": {
+                        "type": "array",
+                        "value": [
+                        ]
+                    }
+                }
+            },
+            "valid": false
+        },
+        "invalidInput": "Body.application-x-www-form-urlencoded.Value.Properties.rows.Type=Not integer"
+    }
+]
